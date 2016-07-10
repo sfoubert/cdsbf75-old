@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "jquery.backstretch@2.1.1",
+      "/home/seb/Java/workspace-idea/Raneto"
+    ]
+  ],
+  "_from": "jquery.backstretch@2.1.1",
+  "_id": "jquery.backstretch@2.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jquery.backstretch",
+  "_nodeVersion": "4.0.0",
+  "_npmUser": {
+    "email": "melanke.hc@gmail.com",
+    "name": "melanke"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "jquery.backstretch",
+    "raw": "jquery.backstretch@2.1.1",
+    "rawSpec": "2.1.1",
+    "scope": null,
+    "spec": "2.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery.backstretch/-/jquery.backstretch-2.1.1.tgz",
+  "_shasum": "ef6ec2b64d0f843ac64869ef4e728246a6b68b49",
+  "_shrinkwrap": null,
+  "_spec": "jquery.backstretch@2.1.1",
+  "_where": "/home/seb/Java/workspace-idea/Raneto",
+  "author": {
+    "email": "scott@robbin.co",
+    "name": "Scott Robbin",
+    "url": "http://srobbin.com"
+  },
+  "bugs": {
+    "url": "https://github.com/srobbin/jquery-backstretch/issues"
+  },
+  "contributors": [
+    {
+      "email": "danielgindi@gmail.com",
+      "name": "Daniel Cohen Gindi"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7"
+  },
+  "description": "A simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.",
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-contrib-concat": "0.5.*",
+    "grunt-contrib-jshint": "0.11.*",
+    "grunt-contrib-qunit": "0.7.*",
+    "grunt-contrib-uglify": "0.9.*",
+    "grunt-contrib-watch": "0.6.*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ef6ec2b64d0f843ac64869ef4e728246a6b68b49",
+    "tarball": "https://registry.npmjs.org/jquery.backstretch/-/jquery.backstretch-2.1.1.tgz"
+  },
+  "homepage": "http://srobbin.com/jquery-plugins/backstretch/",
+  "keywords": [],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://srobbin.com/jquery-plugins/backstretch//blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "jquery.backstretch.js",
+  "maintainers": [
+    {
+      "email": "melanke.hc@gmail.com",
+      "name": "melanke"
+    }
+  ],
+  "name": "jquery.backstretch",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/srobbin/jquery-backstretch.git"
+  },
+  "scripts": {},
+  "title": "Backstretch",
+  "version": "2.1.1"
+}
