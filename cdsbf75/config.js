@@ -56,7 +56,7 @@ var config = {
     password : 'sbf2016'
   },
 
-  locale: 'en',
+  locale: 'fr',
 
   // Set to true to render suitable layout for RTL languages
   rtl_layout: false,
