@@ -17,7 +17,7 @@ gulp.task('copy_libs', function () {
     'node_modules/jquery.backstretch/**/*',
   ];
 
-  var dest = 'themes/default/public/lib';
+  var dest = 'themes/cdsbf75/public/lib';
 
   return gulp.src(source, { base: 'node_modules' })
              .pipe(gulp.dest(dest));
