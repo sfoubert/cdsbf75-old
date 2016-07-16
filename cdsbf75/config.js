@@ -4,7 +4,8 @@
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'CDSBF75, Comité de Paris de Savate Boxe Française',
+  site_title: 'CDSBF75',
+  site_title2: ', Comité de Paris de Savate Boxe Française',
 
   // The base URL of your site (can use %base_url% in Markdown files)
   base_url: '',

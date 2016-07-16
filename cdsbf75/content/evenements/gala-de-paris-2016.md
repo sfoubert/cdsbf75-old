@@ -4,8 +4,8 @@ Sort: 1
 */
 
 
-<a class="fancybox" rel="group" href="/images/gala-de-paris-2016.jpg">
-  <img src="/images/gala-de-paris-2016.jpg" class="img-responsive" alt="Gala de Paris 2016" width="350"/>
+<a class="fancybox" rel="group" href="/images/pages/gala-de-paris-2016.jpg">
+  <img src="/images/pages/thumbnails/gala-de-paris-2016-tb.jpg" class="img-responsive" alt="Gala de Paris 2016" width="300"/>
 </a>
 
 Pesée : 9h30 - 10h30 !

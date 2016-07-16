@@ -16,6 +16,17 @@
   text-decoration: none;
 }
 
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px;
+  width: auto;
+  margin-top: -8px;
+}
+
 .navbar-default .container {
   width: 100%;
 }
