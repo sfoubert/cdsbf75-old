@@ -13,7 +13,7 @@ var config = {
   support_email: '',
 
   // Footer Text / Copyright
-  copyright: 'Copyright &copy; '+ new Date().getFullYear() +' - <a href="http://raneto.com">Powered by Sebfou</a>',
+  copyright: 'Copyright &copy; '+ new Date().getFullYear(),
 
   // Excerpt length (used in search)
   excerpt_length: 400,

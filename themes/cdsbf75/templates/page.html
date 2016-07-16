@@ -1,12 +1,12 @@
 
 <div class="row">
-  <div class="col-sm-3 hidden-xs">
+  <div class="col-sm-3 hidden-xs menu-content">
 
     <ul class="menu">
       {{#canEdit}}
         <li><input id="newCategory" type="text" class="form-control" placeholder="{{lang.page.addCategory}}"/></li>
       {{/canEdit}}
-      
+
       {{#pages}}
         <li class="category">
           {{#is_index}}

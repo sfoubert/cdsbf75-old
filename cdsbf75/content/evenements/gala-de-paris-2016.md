@@ -3,6 +3,11 @@ Title: Gala de Paris 2016
 Sort: 1
 */
 
+
+<a class="fancybox" rel="group" href="/images/gala-de-paris-2016.jpg">
+  <img src="/images/gala-de-paris-2016.jpg" class="img-responsive" alt="Gala de Paris 2016" width="350"/>
+</a>
+
 Pesée : 9h30 - 10h30 !
 
 Voici une projection (non contractuelle!) du Gala de Paris de Samedi.
@@ -29,5 +34,3 @@ Voici une projection (non contractuelle!) du Gala de Paris de Samedi.
 
 - Finale M65
 - Finale M80
-
-![Affiche](/images/gala-de-paris-2016.jpg)

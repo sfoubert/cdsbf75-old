@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="{{config.base_url}}/styles/ghostdown.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
   <link rel="stylesheet" href="{{config.base_url}}/styles/cdsbf75.css">
+  <link rel="stylesheet" href="{{config.base_url}}/lib/fancybox/dist/css/jquery.fancybox.css">
   {{#config.rtl_layout}}
   <link rel="stylesheet" href="{{config.base_url}}/styles/raneto.rtl.css">
   <link rel="stylesheet" href="{{config.base_url}}/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
@@ -26,7 +27,47 @@
 </head>
 <body class="{{body_class}}">
 
-  <!-- Header -->
+
+<!-- Fixed navbar -->
+<header class="header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="{{config.base_url}}/" class="logo">{{config.site_title}}</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <form class="form-inline pull-right">
+            {{#config.authentication}}
+            {{#loggedIn}}
+            &nbsp;<a href="{{config.base_url}}/logout" class="btn btn-info">{{lang.login.logout}}</a>
+            {{/loggedIn}}
+            {{^loggedIn}}
+            &nbsp;<a href="{{config.base_url}}/login" class="btn btn-info">{{lang.login.login}}</a>
+            {{/loggedIn}}
+            {{/config.authentication}}
+          </form>
+          <form class="search-form form-inline pull-right" action="{{config.base_url}}/">
+            <div class="form-group">
+              <label class="sr-only" for="search">{{lang.global.search}}</label>
+              <input type="search" class="form-control" name="search" id="search" size="30" value="{{search}}" placeholder="{{lang.global.search}}">
+            </div>
+          </form>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+</header>
+
+  <!-- Header
   <header class="header">
     <div class="container-fluid">
       <div class="row">
@@ -54,7 +95,7 @@
       </div>
     </div>
   </header>
-
+-->
   <!-- Main -->
   <div class="container-fluid">
     {{{yield}}}
@@ -123,10 +164,10 @@
   <script src="{{config.base_url}}/scripts/ghostdown.js"></script>
   <script src="{{config.base_url}}/lib/jquery.backstretch/jquery.backstretch.min.js"></script>
   <script src="{{config.base_url}}/scripts/raneto.js"></script>
-  <script>
-  $(document).ready(function(){
-    $(".page-home").backstretch("{{config.base_url}}/images/background.jpg");
-  });
-  </script>
+  <script src="{{config.base_url}}/lib/fancybox/lib/jquery.mousewheel.pack.js"></script>
+  <script src="{{config.base_url}}/lib/fancybox/dist/js/jquery.fancybox.pack.js"></script>
+  <script src="{{config.base_url}}/lib/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
+  <script src="{{config.base_url}}/scripts/cdsbf75.js"></script>
+
 </body>
 </html>
