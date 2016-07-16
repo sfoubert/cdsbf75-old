@@ -1,17 +1,19 @@
 {
-  "name": "raneto",
+  "name": "cdsbf75",
   "version": "0.10.1",
-  "description": "Markdown powered Knowledgebase",
-  "author": "Gilbert Pellegrom <gilbert@pellegrom.me>",
+  "description": "Comite de Paris de Savate Boxe Française",
+  "author": "Sebastien Foubert",
   "license": "MIT",
   "keywords": [
-    "raneto",
-    "knowledgebase",
-    "markdown"
+    "cdsbf75",
+    "comite",
+    "savate",
+    "boxe",
+    "francaise"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gilbitron/Raneto.git"
+    "url": "https://github.com/sfoubert/cdsbf75.git"
   },
   "bugs": "https://github.com/gilbitron/Raneto/issues",
   "contributors": "https://github.com/gilbitron/Raneto/graphs/contributors",
@@ -26,7 +28,7 @@
   "scripts": {
     "start": "DEBUG=raneto node cdsbf75/server.js",
     "start_win": "set DEBUG=raneto&&node cdsbf75/server.js",
-    "postinstall": "npm update && npm run gulp",
+    "postinstall": "npm update && bower install && npm run gulp",
     "gulp": "gulp"
   },
   "engines": {
@@ -66,6 +68,7 @@
     "fancybox": "^3.0.0"
   },
   "devDependencies": {
+    "bower": "^1.7.9",
     "jshint": "2.9.1",
     "mocha": "2.4.5",
     "supertest": "1.1.0"

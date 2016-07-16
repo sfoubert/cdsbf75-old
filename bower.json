@@ -1,0 +1,28 @@
+{
+  "name": "cdsbf75",
+  "description": "Comite de Paris de Savate Boxe Française",
+  "main": "./app",
+  "dependencies": {
+    "bootstrap-autohidingnavbar": "~1.0.5"
+  },
+  "authors": [
+    "Sebastien Foubert"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cdsbf75",
+    "comite",
+    "savate",
+    "boxe",
+    "francaise"
+  ],
+  "homepage": "https://github.com/sfoubert/cdsbf75",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
