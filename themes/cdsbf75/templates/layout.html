@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="{{config.base_url}}/styles/ghostdown.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
   <link rel="stylesheet" href="{{config.base_url}}/styles/cdsbf75.css">
+  <link rel="stylesheet" href="{{config.base_url}}/lib/fancybox/dist/css/jquery.fancybox.css">
   {{#config.rtl_layout}}
   <link rel="stylesheet" href="{{config.base_url}}/styles/raneto.rtl.css">
   <link rel="stylesheet" href="{{config.base_url}}/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
@@ -123,9 +124,23 @@
   <script src="{{config.base_url}}/scripts/ghostdown.js"></script>
   <script src="{{config.base_url}}/lib/jquery.backstretch/jquery.backstretch.min.js"></script>
   <script src="{{config.base_url}}/scripts/raneto.js"></script>
+  <script src="{{config.base_url}}/lib/fancybox/lib/jquery.mousewheel.pack.js"></script>
+  <script src="{{config.base_url}}/lib/fancybox/dist/js/jquery.fancybox.pack.js"></script>
   <script>
   $(document).ready(function(){
+
+    // backstretch
     $(".page-home").backstretch("{{config.base_url}}/images/background.jpg");
+
+    // fancybox
+		$(".fancybox").fancybox({
+    beforeShow : function() {
+        var alt = this.element.find('img').attr('alt');
+        this.inner.find('img').attr('alt', alt);
+        this.title = alt;
+        }
+    });
+
   });
   </script>
 </body>

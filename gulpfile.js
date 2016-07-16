@@ -15,6 +15,7 @@ gulp.task('copy_libs', function () {
     'node_modules/masonry-layout/**/*',
     'node_modules/sweetalert/**/*',
     'node_modules/jquery.backstretch/**/*',
+    'node_modules/fancybox/**/*'
   ];
 
   var dest = 'themes/cdsbf75/public/lib';
