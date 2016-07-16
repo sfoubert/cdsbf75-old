@@ -1,5 +1,6 @@
 .jumbotron {
     margin-top: 74px;
+    opacity: 0.8;
 }
 
 .content {
@@ -36,6 +37,7 @@
   border-color: #000540;
   padding: 20px;
   height: 74px;
+  opacity: 0.8;
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
