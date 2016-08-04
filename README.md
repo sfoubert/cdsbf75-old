@@ -1,6 +1,8 @@
 # cdsbf75
 Comité de Paris de Savate Boxe Française
 
+[![Build Status](https://travis-ci.org/sfoubert/cdsbf75.svg?branch=master)](https://travis-ci.org/sfoubert/cdsbf75)
+
 Quickstart
 ----------
 
