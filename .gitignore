@@ -27,6 +27,7 @@ bower_components
 
 # npm Components (Installed Automatically)
 themes/default/public/lib/
+themes/cdsbf75/public/lib/
 
 # Misc
 *.pages
