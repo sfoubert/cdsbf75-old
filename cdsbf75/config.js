@@ -54,7 +54,7 @@ var config = {
   authentication : true,
   credentials    : {
     username : 'admin',
-    password : 'xxxxx'
+    password : 'paris2016'
   },
 
   locale: 'fr',
