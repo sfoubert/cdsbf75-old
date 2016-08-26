@@ -1,6 +1,6 @@
 /*
 Title: Photos du Gala de Paris 2016
-Sort: 1
+Sort: 3
 */
 
 <div class="container-fluid">
