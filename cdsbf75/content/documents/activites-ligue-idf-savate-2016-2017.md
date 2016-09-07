@@ -1,6 +1,6 @@
 /*
 Title: Calendrier Ligue IDF 2016-2017
-Sort: 1
+Sort: 3
 */
 
 <a class="fancybox" rel="group" href="/images/pages/activites-ligue-idf-savate-2016-2017.jpg">
