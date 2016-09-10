@@ -1,6 +1,6 @@
 /*
 Title: Forclusion IDF ESPOIRS Masculin-féminin 2016-2017
-Sort: 1
+Sort: 4
 */
 
 Bonjour à tous, j'espère que vous avez passé de bonnes vacances !!!
@@ -13,5 +13,5 @@ Bonjour à tous, j'espère que vous avez passé de bonnes vacances !!!
  * [DOS DU CHEQUE.pdf](https://drive.google.com/file/d/0ByCcllu-OhkAY005M010ZlI1TmJUZjlXNGhocDZXekpsWWhN/view?usp=sharing)
 
 2. Rappel ci-joint des Forclusion Espoirs. (Féminin Masculin)
- * Département le 10.10.2016
- * IDF le 17.10.2016
+ * Département le **10.10.2016**
+ * IDF le **17.10.2016**

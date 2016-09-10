@@ -21,7 +21,9 @@ var config = {
 
   // The meta value by which to sort pages (value should be an integer)
   // If this option is blank pages will be sorted alphabetically
+  // if page_sort_meta_reverse is true then reverse order sorted pages, default false
   page_sort_meta: 'sort',
+  page_sort_meta_reverse: true,
 
   // Should categories be sorted numerically (true) or alphabetically (false)
   // If true category folders need to contain a "sort" file with an integer value
