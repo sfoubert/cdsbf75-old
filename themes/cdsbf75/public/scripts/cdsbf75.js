@@ -4,7 +4,11 @@
     $("nav.navbar-fixed-top").autoHidingNavbar();
 
     // backstretch
-    $(".page-home").backstretch("/images/background.jpg");
+    $(".page-home").backstretch([
+        "/images/background1.jpg",
+        "/images/background2.jpg",
+        "/images/background3.jpg"
+    ], {duration: 3000, fade: 750});
 
     // fancybox
 		$(".fancybox").fancybox({
